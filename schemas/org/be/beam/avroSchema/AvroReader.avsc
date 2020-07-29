@@ -1,0 +1,18 @@
+{
+    "namespace": "org.be.beam.avroSchema",
+    "name": "AvroReader",
+    "type": "record",
+    "fields": [
+        { "name": "aa", "type": "string",                     "aliases": ["a"] },
+        { "name": "bb", "type": "string",                     "aliases": ["b"] },
+        { "name": "cc", "type": ["null", "double"],           "aliases": ["c"] },
+        { "name": "dd", "type": ["long", "null"],             "aliases": ["d"] },
+        { "name": "ee", "type": ["null", "int"],              "aliases": ["e"] },
+        { "name": "ff", "type": ["null", "string"],           "aliases": ["f"] },
+        { "name": "gg", "type": "null",                       "aliases": ["g"] },
+        { "name": "hh", "type": ["null", "long", "string"],   "aliases": ["h"] },
+        { "name": "ii", "type": ["null", "double", "string"], "aliases": ["i"] },
+        { "name": "jj", "type": ["null", "double", "string"], "aliases": ["j"] },
+        { "name": "kk", "type": ["null", "long", "string"],   "aliases": ["k"] }
+    ]
+}

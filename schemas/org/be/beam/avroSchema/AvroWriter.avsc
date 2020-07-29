@@ -1,0 +1,18 @@
+{
+    "namespace": "org.be.beam.avroSchema",
+    "name": "AvroWriter",
+    "type": "record",
+    "fields": [
+        { "name": "a", "type": "string" },
+        { "name": "b", "type": "string" },
+        { "name": "c", "type": ["null", "double"],           "default": null },
+        { "name": "d", "type": ["int", "null"],              "default": 0 },
+        { "name": "e", "type": ["null", "int"],              "default": null },
+        { "name": "f", "type": ["null", "string"],           "default": null },
+        { "name": "g", "type": "null",                       "default": null },
+        { "name": "h", "type": ["null", "long", "string"],   "default": null },
+        { "name": "i", "type": ["null", "double", "string"], "default": null },
+        { "name": "j", "type": ["null", "double", "string"], "default": null },
+        { "name": "k", "type": ["null", "long", "string"],   "default": null }
+    ]
+}

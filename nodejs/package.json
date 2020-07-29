@@ -1,0 +1,20 @@
+{
+  "name": "fluentdtobeam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emitter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node emitter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@avro/types": "^1.0.5",
+    "@google-cloud/pubsub": "^2.1.0",
+    "avsc": "^5.4.21",
+    "axios": "^0.19.2",
+    "event-stream": "^4.0.1",
+    "fluent-logger": "^3.4.1"
+  }
+}
